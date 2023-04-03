@@ -7,13 +7,15 @@ public abstract class Packet implements Serializable {
     protected String description="Opis";
     protected long  date=50;
     public Packet(){
+
     }
     public Packet(String device,String description,long date){
         this.device=device;
         this.description=description;
         this.date=date;
     }
+    @Override
     public String toString(){
-        return "Packet [device="+device+", Description:"+description+",Date:"+date+"]";
+        return "Packet [device:"+device+", Description:"+description+", Date:"+date+"]";
     }
 }
