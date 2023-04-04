@@ -1,3 +1,4 @@
+import types.Alarm;
 import types.Spectrum;
 import types.TimeHistory;
 
@@ -13,5 +14,9 @@ public class Main {
         System.out.println(obj3.toString());
         Spectrum obj4=new Spectrum<>();
         System.out.println(obj4.toString());
+        Alarm obj5=new Alarm();
+        System.out.println(obj5.toString());
+        Alarm obj6=new Alarm("Device1","opis urzadzenia",150,251.5,1);
+        System.out.println(obj6.toString());
     }
 }
