@@ -17,6 +17,7 @@ public abstract class Sequence<T> extends Packet{
     }
     @Override
     public String toString() {
+        //poprawić wyświetlanie buffera
         return super.toString()+"\nSequence [channelNr:"+channelNr+", unit:"+unit+", resolution:"+resolution+", buffer:"+buffer+"]";
     }
 }
