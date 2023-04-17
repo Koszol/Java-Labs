@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module classpath="eclipse" classpath-dir="$MODULE_DIR$" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../DataTypeModel/src/types">
-      <sourceFolder url="file://$MODULE_DIR$/../DataTypeModel/src/types" isTestSource="false" packagePrefix="types" />
-    </content>
-  </component>
-</module>
