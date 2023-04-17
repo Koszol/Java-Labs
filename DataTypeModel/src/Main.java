@@ -21,7 +21,7 @@ public class Main {
         System.out.println(obj5.toString());
         // Test serializacji do pliku
         Tools.fileSerialize(obj2);
-        Object obj7= (Alarm) Tools.fileDeserialize("types.Alarm.ser");
+        Object obj7= (TimeHistory) Tools.fileDeserialize("types.TimeHistory.ser");
         // Test serializacji do tablicy bajtów
         byte[] tablica= Tools.byteSerialize(obj1);
         Object obj8= Tools.byteDeserialize(tablica);
